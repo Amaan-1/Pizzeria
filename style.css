@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+.hold {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+}
+
+input {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    font-family: 'Acme', sans-serif;
+}
+
+input:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+button {
+    outline: none;
+    font-family: 'Concert One', cursive;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s linear;
+    color: black;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #aaaaaa;
+    color: white;
+    transform: scale(0.9);
+}
