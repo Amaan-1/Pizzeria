@@ -25,7 +25,7 @@ function add_content() {
     data = "<section class='card_menu'>";
     for (var i = 0; i < menu_list.length; i++) {
 
-        data = data + "<div class='card_menu'>" + '<img id = "pizza_img_thing" src="images/pizzaImg.png">' + menu_list[i] + '</li>';
+        data = data + "<div class='card_menu'>" + '<img id = "pizza_img_thing" src="pizzaImg.png">' + menu_list[i] + '</li>';
 
     }
     data = data + '</section>';
